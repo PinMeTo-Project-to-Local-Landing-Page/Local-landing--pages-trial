@@ -1,0 +1,16 @@
+{
+  "name": "local-landing-pages1",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "convert-array-to-csv": "^2.0.0",
+    "csv-parse": "^5.5.6"
+  }
+}

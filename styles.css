@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.sidebar {
+    width: 300px;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+#map {
+    flex-grow: 1;
+}
+.search-box {
+    margin-bottom: 20px;
+}
+#search-input {
+    width: 70%;
+    padding: 8px;
+}
+#search-button {
+    width: 25%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.store-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.store-name {
+    font-weight: bold;
+}
+.store-address, .store-hours {
+    font-size: 0.9em;
+    color: #555;
+}
